@@ -1,0 +1,22 @@
+# Galería Interactiva - JavaScript Básico (DOM y Eventos)
+
+**Estudiante:** Erick Mauricio Toloza Jara
+**Módulo:** Programación Web - Unidad 4
+
+## Descripción del Proyecto
+Este proyecto es una aplicación web interactiva (Single Page Application) que permite gestionar una galería de tarjetas dinámicas utilizando exclusivamente Vanilla JavaScript (ES6). No se han utilizado librerías externas.
+
+## Requisitos Técnicos Implementados
+* **Manipulación del DOM:** Uso intensivo de `createElement`, `appendChild`, `remove()` y la API `classList` para mostrar/ocultar elementos.
+* **Modelo de Eventos:** Implementación del patrón de **Delegación de Eventos** mediante `addEventListener` y `event.target` para manejar dinámicamente el filtrado y la eliminación de tarjetas sin sobrecargar la memoria.
+* **Sintaxis ES6:** * Uso de *Arrow Functions* para una sintaxis más limpia.
+  * *Template Literals* (``) para inyectar HTML y variables de forma segura.
+  * *Desestructuración de objetos* al momento de renderizar los datos de cada tarjeta.
+
+## Instrucciones de Ejecución
+1. Clonar el repositorio.
+2. Abrir el archivo `index.html` en Google Chrome.
+3. Interactuar con el formulario para agregar tarjetas, usar los botones superiores para filtrar por categoría y el botón de eliminar en cada tarjeta.
+
+## Captura de Pantalla
+![image alt]()
